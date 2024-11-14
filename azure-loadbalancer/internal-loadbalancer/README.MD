@@ -6,7 +6,7 @@
 
 - Client VM/Server VM共にSSH公開鍵認証でBastionから接続する。
   - OSユーザー名はvariable.tfのvm_usernameに定義。
-  - SSH公開鍵はclient.pem,server.pemがtfファイルと同一フォルダに出力される。
+  - SSH秘密鍵はclient.pem,server.pemがtfファイルと同一フォルダに出力される。
 
 - Server VM
   - カスタムスクリプトを利用してNGINXをインストールしている。
